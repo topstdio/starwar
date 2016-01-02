@@ -1,0 +1,93 @@
+<?php
+
+$lang['user_level'] = array (
+	'0' => '普通玩家',
+	'1' => '初级管理员',
+	'2' => '中级管理员',
+	'3' => '高级管理员',
+	'4' => '超级管理员'
+);
+
+$lang['sys_overview'] = "概况一览";
+$lang['mod_marchand'] = "贸易";
+$lang['sys_moon'] = "月球";
+$lang['sys_error'] = "错误";
+$lang['sys_no_vars'] = "文件错误，请联系管理员!";
+$lang['sys_attacker_lostunits'] = "进攻者损失了总共 %s 单位.";
+$lang['sys_defender_lostunits'] = "防守者损失了总共 %s 单位.";
+$lang['sys_gcdrunits'] = "产生了一片含有 %s %s 和 %s %s的废墟，并形成轨道绕了.";
+$lang['sys_moonproba'] = "月球产生的几率:%d%%";
+$lang['sys_moonbuilt'] = "漂浮在此空间的废墟形成了一个绕着星球 %s [%d:%d:%d] 的月球!";
+$lang['sys_attack_title'] = "舰队发生战斗于 %s:";
+$lang['sys_attack_attacker_pos'] = "攻击者%s [%s:%s:%s]";
+$lang['sys_attack_techologies'] = "武器:%d%% 护盾:%d%% 装甲:%d%%";
+$lang['sys_attack_defender_pos'] = "防御者%s [%s:%s:%s]";
+$lang['sys_ship_type'] = "类型";
+$lang['sys_ship_count'] = "数量";
+$lang['sys_ship_weapon'] = "武器";
+$lang['sys_ship_shield'] = "能量盾";
+$lang['sys_ship_armour'] = "装甲";
+$lang['sys_destroyed'] = "被摧毁了!";
+$lang['sys_attack_attack_wave'] = "进攻者舰队总共发射强度为 %s 的能量射向防御者。防御者的防御盾吸收了 %s 点伤害。";
+$lang['sys_attack_defend_wave'] = "防御者舰队总共射击强度为 %s 的能量射向进攻者。进攻者的防御盾吸收了 %s 点伤害。" ;
+$lang['sys_attacker_won'] = "攻击者赢得了这场战斗!";
+$lang['sys_defender_won'] = "防御方赢得了这场战斗!";
+$lang['sys_both_won'] = "战斗以平局结束!";
+$lang['sys_stealed_ressources'] = "攻击者获得了%s %s,%s %s和%s %s 。";
+$lang['sys_rapport_build_time'] = "战报产生耗时%s秒";
+$lang['sys_mess_tower'] = "控制塔";
+$lang['sys_mess_attack_report'] = "战斗报告";
+$lang['sys_spy_maretials'] = "扫描";
+$lang['sys_spy_fleet'] = "飞船";
+$lang['sys_spy_defenses'] = "防御";
+$lang['sys_mess_qg'] = "总部";
+$lang['sys_mess_spy_report'] = "侦察报告";
+$lang['sys_mess_spy_lostproba'] = "损失间谍卫星的几率:%d%%";
+$lang['sys_mess_spy_control'] = "侦查监控";
+$lang['sys_mess_spy_activity'] = "探测行动";
+$lang['sys_mess_spy_ennemyfleet'] = "一支敌对舰队出现在这个星球上";
+$lang['sys_mess_spy_seen_at'] = "对你的星球进行间谍活动";
+$lang['sys_mess_spy_destroyed'] = "你的间谍卫星被摧毁了!";
+$lang['sys_object_arrival'] = "抵达一个星球";
+$lang['sys_stay_mess_stay'] = "停留舰队";
+$lang['sys_stay_mess_start'] = "你的舰队到达星球";
+$lang['sys_stay_mess_end'] = "并且带来:";
+$lang['sys_adress_planet'] = "[%s:%s:%s]";
+$lang['sys_stay_mess_goods'] = "%s : %s %s : %s %s : %s";
+$lang['sys_colo_mess_from'] = "殖民";
+$lang['sys_colo_mess_report'] = "报告产生";
+$lang['sys_colo_defaultname'] = "殖民地";
+$lang['sys_colo_arrival'] = "该舰队到达目的地";
+$lang['sys_colo_maxcolo'] = ", 但很可惜，你的殖民星数量已经达到上限。";
+$lang['sys_colo_allisok'] = ", 并开始发展新的星球。";
+$lang['sys_colo_badpos'] = ", 殖民者发现星球的环境不适合用来扩张你的帝国，所以他们决定返回。";
+$lang['sys_colo_notfree'] = ", 殖民者在星球上没有找到任何物品。他们被迫回头，士气低落。";
+$lang['sys_colo_planet'] = "星球";
+$lang['sys_expe_report'] = "远征报告";
+$lang['sys_recy_report'] = "回收报告";
+$lang['sys_expe_blackholl_1'] = "报告你一个好消息，你的舰队遇见了传说中的黑洞，一部分飞船背叛了你，决定进入黑洞探险，再也不会回来了，阿门!";
+$lang['sys_expe_blackholl_2'] = "告诉你一个坏消息，你的舰队遇见了黑洞，他们觉得它太讨厌，于是决定自杀……";
+$lang['sys_expe_nothing_1'] = "您的探险舰队发现了超新星，并拍摄了很多美丽的图片。因此，他们没有发现任何资源。你真可怜……";
+$lang['sys_expe_nothing_2'] = "您的探险舰队花了很多时间搜索指定的领域。但他们没有发现任何资源和星球。";
+$lang['sys_expe_found_goods'] = "该舰队已发现了无人的行星！ <br>所以恭喜，您的探险者已抢得了 %s %s %s %s %s 和 %s %s";
+$lang['sys_expe_found_ships'] = "您的探险家发现遗弃的船只。 <br>他们发现:";
+$lang['sys_expe_back_home'] = "您的舰队远征返回星球.";
+$lang['sys_mess_transport'] = "舰队运输";
+$lang['sys_tran_mess_owner'] = "您的一只舰队抵达%s%s，带去了%s单位的%s和%s单位的%s以及%s单位的%s。" ;
+$lang['sys_tran_mess_user'] = "一盟军舰队从%s %s的抵达%s的%s %s的预订和她单位的% s % s的% S的单位和单位的% s es de% s ";
+$lang['sys_mess_fleetback'] = "返回舰队";
+$lang['sys_tran_mess_back'] = "您的一个舰队回到% s % s，舰队没有带回任何资源。";
+$lang['sys_recy_gotten'] = "你单位收集的% s % s的% S和单位% S";
+$lang['sys_notenough_money'] = "你没有足够的资源来建设 %s。你只有 %s %s , %s %s 和 %s %s。建筑需要 %s %s , %s %s 和 %s %s。";
+$lang['sys_buildlist'] = "建筑列表";
+$lang['sys_buildlist_fail'] = "无法完成建筑";
+$lang['sys_gain'] = "收入";
+$lang['sys_perte_attaquant'] = "攻击者损失";
+$lang['sys_perte_defenseur'] = "防御者损失";
+$lang['sys_debris'] = "废墟";
+$lang['sys_noaccess'] = "拒绝访问";
+$lang['sys_noalloaw'] = "您无权进入此页";
+
+// Created by Perberos. All rights reversed (C) 2006
+// Complet by XNova Team. All rights reversed (C) 2008
+?>

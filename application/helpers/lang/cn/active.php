@@ -1,0 +1,28 @@
+<?php
+
+if (!defined('INSIDE')) {
+	die("attemp hacking");
+}
+
+// Registration form
+$lang['registry']          = '×¢²á';
+$lang['form']              = '¸ñÊ½';
+$lang['Register']          = '×¢²á';
+$lang['Multiverse']        = 'ÐÇÕ½';
+$lang['E-Mail']            = 'e-MailµØÖ·';
+$lang['signup']            = ' ×¢²á ';
+
+// Send
+$lang['mail_welcome']      = 'Dziekujemy za Aktywacja w naszej grze!!!Aby si?zalogowa?wejd?tu: ({gameurl})';
+
+$lang['mail_title']        = 'Aktywacja';
+$lang['thanksforregistry'] = 'Dziêkujemy za Aktywacja!! Na podany mail zosta?podes³ane informacje :) Pozdro.';
+
+// Errors
+$lang['error_mail']        = 'Niepoprawny E-mail!<br />';
+$lang['error_mailsend']    = 'Mail nie zosta?wys³any!!';
+$lang['reg_welldone']      = 'Aktywacja zakoñczona poprawnie!!!';
+
+// Created by Perberos. All rights reversed (C) 2006
+// Complet by XNova Team. All rights reversed (C) 2008
+?>
